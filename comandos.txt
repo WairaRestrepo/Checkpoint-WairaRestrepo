@@ -1,0 +1,30 @@
+  474  cd Hardware/
+  475  touch resumen.txt
+  476  cd ..
+  477  cd Software/
+  478  touch resumen.txt
+  479  cd ..
+  480  cd SeguridadInformatica/
+  481  touch resumen.txt
+  482  git add .
+  483  git commit -m "Primer commit WairaRestrepo feature"
+  484  git push -u origin feature
+  485  ls
+  486  cd ..
+  487  ls
+  488  ls
+  489  rm index.html main.js
+  490  ls
+  491  git add .
+  492  git commit -m "segundo  commit WairaRestrepo feature"
+  493  git push -u origin feature
+  494  git checkout main
+  495  ls
+  496  mv main.js resumenHardware.txt
+  497  ls
+  498  mv index.html resumenSoftware.txt
+  499  nano resumenSoftware.txt 
+  500  nano resumenHardware.txt 
+  501  ls
+  502  touch comandos.txt
+  503  history 30 > comandos.txt
